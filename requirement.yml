@@ -1,0 +1,20 @@
+name: alphasub
+channels:
+- defaults
+- conda-forge
+- bokeh
+dependencies:
+- panel==0.13
+- holoviews
+- pip
+- paramiko
+- ipywidgets
+- ipywidgets_bokeh
+- numpy
+- pandas
+- matplotlib
+- pip:
+  - jupyter_bokeh
+  - cryptography
+  - plotly
+  - panel-chemistry
